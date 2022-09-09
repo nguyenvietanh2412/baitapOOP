@@ -131,19 +131,16 @@ public:
 			if (ts[i]->getTS() == 1)
 			{
 				cout << "\n\nThi sinh thu " << i + 1 << " :";
-				//cout << "\nKhoi thi : ";
 				ts[i]->output();
 			}
 			else if (ts[i]->getTS() == 2)
 			{
 				cout << "\n\nThi sinh thu " << i + 1 << " :";
-				//cout << "\nThe loai : Tap chi";
 				ts[i]->output();
 			}
 			else if (ts[i]->getTS() == 3)
 			{
 				cout << "\n\nThi sinh thu " << i + 1 << " :";
-				//cout << "\nThe loai : Bao";
 				ts[i]->output();
 			}
 		}
