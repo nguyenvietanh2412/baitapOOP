@@ -18,10 +18,10 @@ public:
 		room = Room;
 		day = Day;
 	}
-	string getName()
+	/*string getName()
 	{
 		return name;
-	}
+	}*/
 	int getAge()
 	{
 		return age;

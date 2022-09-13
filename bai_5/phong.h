@@ -11,11 +11,11 @@ protected:
 
 public:
 	phong(){}
-	phong(string Type, int Price)
+	/*phong(string Type, int Price)
 	{
 		type = Type;
 		price = Price;
-	}
+	}*/
 	void setType(string Type)
 	{
 		type = Type;
