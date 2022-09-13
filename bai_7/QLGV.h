@@ -6,11 +6,6 @@ private:
 	vector<Teacher> teacher;
 public:
 	QLGV(){}
-	
-	/*void addTeacher(Teacher TEACHER)
-	{
-		teacher.push_back(TEACHER);
-	}*/
 	void Input()
 	{
 		string NAME, ID;
